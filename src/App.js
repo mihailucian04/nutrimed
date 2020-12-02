@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Button from '@material-ui/core/Button';
 
 function App() {
   return (
@@ -15,7 +18,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Test orice
+          <Button variant="contained" color="primary">
+              This is a materialUI test
+          </Button>
+         
         </a>
       </header>
     </div>
